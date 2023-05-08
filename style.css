@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: IBM Plex Sans;
+    background-image: url(images/bg-main-mobile.png);
+    background-repeat: no-repeat;
+}
+.tabletimage{
+    display: none;
+}
+
+.text{
+    padding:39px 24px 0 24px;
+    margin-bottom: 166px;
+    color: #191826;
+}
+.slogan{
+    padding-top: 64px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4545454680919647px;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;    
+}
+.container{
+    position: relative;
+    max-width: 375px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: #191826;
+
+}
+.imgonback{
+    padding: 0 47px 0 48px;
+    max-width: 375px;
+    border-radius: 12px;
+}
+.mobilelogo{
+    position: absolute;
+    width: 56%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.premiumoffer{
+    position: relative;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 48px 37px 48px 42px;
+    background-color: #FA7453;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    border-radius: 12px; 
+    color: #FCFAF9;
+    margin-top: -10%;
+}
+.eqpro {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 12px;
+  }
+.price{
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    gap: 16px;
+    font-size: 65px;
+    font-weight: 700;    
+}
+.permonth{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.20000000298023224px;    
+}
+
+
+.applebutton{
+    gap: 7.92px;
+    margin-bottom: 1rem;
+    height: 61px;
+    width: 296px;
+    border: none;
+    background-color: #191826;
+    color: #FCFAF9;
+    border-radius: 12px; 
+}
+.applebutton:hover{
+    cursor: pointer;
+    background: #66E2DC;
+}
+.androidbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.92px;
+    height: 61px;
+    width: 296px;
+    border-radius: 12px;
+    border: none;
+    color: #191826;
+    background-color:#FCFAF9;
+}
+.androidbutton:hover{
+    cursor: pointer;
+    background: #FFB964;
+}
+footer{
+    margin-top: 64px;
+    padding-left: 24px;
+
+}
+.copyright{
+    width: 39ch;
+    padding: 32px 22px 64px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.mailadress{
+    font-weight: 700;
+}
+.socmediaicons{
+    display: flex;
+    padding-bottom: 80px;
+    gap: 20px;
+}
+.socialicon:hover{
+        cursor: pointer;
+        filter: invert(67%) sepia(46%) saturate(6201%) hue-rotate(330deg) brightness(114%) contrast(109%);
+}
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url(images/bg-main-tablet.png);
+        overflow-x: hidden;
+    }
+    .text{
+        padding: 61.99px 0 0 39.15px;
+        margin-bottom: 249px;
+    }
+    .tabletimage{
+        display: block;
+        position: absolute;
+        top: -80px; 
+        left: 510px;   
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+    .slogan{
+        width: 14ch;
+        padding-top: 95.01px;
+        padding-bottom: 28px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -0.7272727489471436px;
+    }
+    .description{
+        width: 52ch;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .container{
+        position: relative;
+        max-width: 696px;
+        height: 600px;
+        background-color: #191826;
+        margin: 0 auto;
+    }
+    .imgonback{
+        position: relative;
+        left: 27%;
+        top: 20px;
+
+    }
+    .premiumoffer {
+        position: absolute;
+        left: 230px;
+        top: 250px;
+        max-width: 399px;
+        z-index: 1;
+    }
+    .mobilelogo {
+        position: absolute;
+        height: 556px;
+        width: 270.2055969238281px;
+        top: 25%;
+        left: 27%;
+    }
+    footer{
+        padding-left: 34.15px;
+        margin-top: 182px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1040px) {
+    body{
+        overflow-x: hidden;
+        background-image: url(images/bg-main-desktop.png);
+    }
+    .text{
+        padding-left: 165px;
+    }
+    .slogan{
+        width: 20ch;
+        padding-top: 127.01px;
+        padding-bottom: 40px;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px; 
+    }
+    .description{
+        width: 79ch;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .tabletimage{
+        top: -50px;
+        left: 1207px;   
+    }
+    .container{
+        max-width: 1110px;
+    }
+   .imgonback{
+        position: relative;
+        top: -5%;
+        left: 26.6%;
+    }
+    .mobilelogo {
+        position: absolute;
+        height: 606px;
+        width: 280;
+        top: 20%;
+        left: 25%;
+    }
+    .premiumoffer {
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        max-width: 399px;
+        z-index: 1;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .eqpro {
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 22px;
+      }
+    .price{
+        margin-top: 39px;
+        margin-bottom: 46px;
+    }
+    
+
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 165px;
+        gap: 137px;
+        }
+    .footerlogo {
+        position: relative;
+        bottom: 38px;
+        height: 32px;
+        width: 146.0926971435547px;
+    }
+
+    .socialicon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .socmediaicons {
+        margin-left: 222px;
+    }
+}
