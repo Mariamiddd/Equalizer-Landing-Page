@@ -126,7 +126,7 @@ footer{
 
 }
 .copyright{
-    width: 39ch;
+    width: 36ch;
     padding: 32px 22px 64px 0;
     font-size: 18px;
     font-weight: 400;
@@ -209,7 +209,9 @@ footer{
         padding-left: 34.15px;
         margin-top: 182px;
     }
-
+    .copyright{
+        width: 39ch;
+    }
 
 }
 
@@ -272,8 +274,6 @@ footer{
         margin-bottom: 46px;
     }
     
-
-
     footer{
         display: flex;
         flex-direction: row;
