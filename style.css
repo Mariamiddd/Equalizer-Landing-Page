@@ -92,6 +92,9 @@ body{
 
 
 .applebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 7.92px;
     margin-bottom: 1rem;
     height: 61px;
@@ -104,6 +107,7 @@ body{
 .applebutton:hover{
     cursor: pointer;
     background: #66E2DC;
+    transition: 0.4s;
 }
 .androidbutton{
     display: flex;
@@ -116,6 +120,7 @@ body{
     border: none;
     color: #191826;
     background-color:#FCFAF9;
+    transition: 0.4s;
 }
 .androidbutton:hover{
     cursor: pointer;
@@ -152,7 +157,7 @@ footer{
         padding: 61.99px 0 0 39.15px;
         margin-bottom: 249px;
     }
-    .header{
+    header{
         justify-content: space-between;
     }
     .tabletimage{
@@ -163,7 +168,7 @@ footer{
         width: 312px;
         height: 468px;
     }
-    .header{
+    header{
         display: flex;
         flex-direction: row;
     }
@@ -223,7 +228,7 @@ footer{
     body{
         background-image: url(images/bg-main-desktop.png);
     }
-    .header{
+    header{
         justify-content: space-between;
     }
     .text{
